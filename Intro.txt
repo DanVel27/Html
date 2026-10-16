@@ -1,0 +1,4 @@
+Вступ до HTML
+
+$ git config --global user.name "Velinov Daniil"
+$ git config --global user.email pupok@example.com
