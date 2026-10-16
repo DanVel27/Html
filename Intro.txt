@@ -1,4 +1,7 @@
 Вступ до HTML
 
 $ git config --global user.name "Velinov Daniil"
-$ git config --global user.email pupok@example.com
+$ git config --global user.email velinovdaniil@gmail.com
+
+HTML - HyperText Markup Languege - Гіпертекстова мова 
+розмітки
