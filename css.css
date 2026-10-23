@@ -1,0 +1,28 @@
+* {
+    color:#333;
+}
+
+img {
+    padding: 2px; /*padding - внутрішній відступ (до рамки)*/
+    margin: 5px; /*margin - */
+    border: 5px;
+    width: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.selector-table {
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+}
+
+.selector-table th, .selector-table td {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
