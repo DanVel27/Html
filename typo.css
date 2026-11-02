@@ -45,7 +45,7 @@ button:active {
     margin-right: 1em;
     transform: scale(2);
 }
-#agree ~label { /* ~ - наступний елемент за даним (з тегом label)*/
+#agree ~ label { /* ~ - наступний елемент за даним (з тегом label)*/
     color: red;
 }
 #agree:checked ~ label { /* ~ - наступний елемент за даним (з тегом label)*/
@@ -53,4 +53,7 @@ button:active {
 }
 #agree:hover ~ label { /* ~ - наступний елемент за даним (з тегом label)*/
     color: blue;
+}
+#done:checked + label, #done:checked {
+    border: 2px solid blue;
 }
