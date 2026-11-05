@@ -14,6 +14,15 @@
     align-items: center;
     width: 100px;
 }
+.item-2 {
+    background-color: tomato;
+    border: 2px solid maroon;
+    /*height: 100px; Я прибрав висоту щоб вона не заважала stratch*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
 .j-center {
     justify-content: center; /* вирівнювання вздовж головної осі*/
 }
@@ -26,6 +35,18 @@
 .j-around {
     justify-content: space-around; /*  */
 }
-.a center {
+.a-center {
     align-items: center;
+}
+.a-stretch {
+    align-items: stretch;
+}
+.a-flex-start {
+    align-items: flex-start;
+}
+.a-flex-end {
+    align-items: flex-end;
+}
+.a-baseline {
+    align-items: baseline;
 }
