@@ -50,3 +50,59 @@
 .a-baseline {
     align-items: baseline;
 }
+.flex-1 {
+    background-color: lime;
+    flex: 1; 
+}
+.flex-2 {
+    background-color: orange;
+    flex: 2; 
+}
+.flex-3 {
+    background-color: cyan;
+    flex: 3; 
+}
+.card {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px 2px #bbb;
+    display: flex;
+    flex-direction: column;
+}
+.card-image {
+    background-color: rgb(119, 0, 255);
+    height: 48%;
+    /*             LT   RT   RB LB*/
+    border-radius: 15px 15px 0  0;
+    width: 100%;
+}
+.card-headline {
+    padding: 0 0 0 7px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.card-subhead {
+    font-size: 25px;
+    padding: 5px 0 0 7px;
+}
+.card-text {
+    flex: 1;
+    padding: 20px 0 0 7px;
+}
+.card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.card-button {
+    justify-content: center;
+    padding: 5px;
+    color: rgb(119, 0, 255);
+    background-color: white;
+    border-radius: 20px;
+}
+.card-button:hover {
+    background-color: rgb(119, 0, 255);
+    color: white;
+}
