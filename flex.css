@@ -63,7 +63,7 @@
     flex: 3; 
 }
 .card {
-    height: 350px;
+    height: 400px;
     width: 350px;
     border-radius: 15px;
     box-shadow: 0 3px 3px 2px #bbb;
@@ -71,7 +71,6 @@
     flex-direction: column;
 }
 .card-image {
-    background-color: rgb(119, 0, 255);
     height: 48%;
     /*             LT   RT   RB LB*/
     border-radius: 15px 15px 0  0;
@@ -79,11 +78,11 @@
 }
 .card-headline {
     padding: 0 0 0 7px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
 }
 .card-subhead {
-    font-size: 25px;
+    font-size: 23px;
     padding: 5px 0 0 7px;
 }
 .card-text {
@@ -98,11 +97,12 @@
 .card-button {
     justify-content: center;
     padding: 5px;
-    color: rgb(119, 0, 255);
+    margin: 5px;
+    color: limegreen;
     background-color: white;
     border-radius: 20px;
 }
 .card-button:hover {
-    background-color: rgb(119, 0, 255);
+    background-color: limegreen;
     color: white;
 }
