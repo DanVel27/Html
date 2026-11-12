@@ -1,0 +1,95 @@
+.card {
+    height: 475px;
+    width: 425px;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px 2px #bbb;
+    display: flex;
+    flex-direction: column;
+}
+.card-image {
+    height: 48%;
+    /*             LT   RT   RB LB*/
+    border-radius: 15px 15px 0  0;
+    width: 100%;
+}
+.card-headline {
+    padding: 0 0 0 7px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-subhead {
+    padding: 5px 0 0 7px;
+}
+.card-text {
+    flex: 1;
+    padding: 20px 0 0 7px;
+}
+.card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 10px;
+}
+.card-button {
+    justify-content: center;
+    padding: 10px;
+    color: limegreen;
+    background-color: white;
+    border: transparent;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.card-button:hover {
+    background-color: limegreen;
+    color: white;
+    border-color: limegreen;
+}
+.card-button:active {
+    background-color: darkgreen;
+    color: white;
+    border-color: darkgreen;
+}
+.card-price {
+    display: flex;
+    flex-direction: column;
+}
+.card-price-discount {
+    display: flex;
+    flex-direction: row;
+}
+.card-price-old {
+    text-decoration: line-through;
+    color: #bebebe;
+    font-size: 18px;
+    padding-top: 9px;
+}
+.card-price-actual {
+    color: rgb(218, 18, 0);
+    font-weight: 700;
+    font-size: x-large;
+}
+.card-discount-percent {
+    background-color: rgb(218, 18, 0);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    margin: 0 0 5px 10px;
+    border-radius: 14px;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 3px;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    font-size: 30px;
+    color: #cdcdcd;
+    cursor: pointer;
+}
+.rating input:checked ~ label, .rating label:hover, .rating label:hover ~ label {
+    color: #ffd900;
+}
