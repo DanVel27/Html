@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web core</title>
+
+    <style>
+        .header {
+            font-size: 3vw;
+        }
+        .a-container {
+            width: 25vw;
+            display: flex;
+            flex-direction: column;
+            border: 0.2vw solid lightgray;
+            border-radius: 0.5vw;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        .a-container a {
+            padding: 0.5vw 1vw;
+            color: #555;
+            font-size: 1vw;
+            text-decoration: none;
+            border-bottom: 0.2vw solid lightgray;
+            background-color: white;
+        }
+        .a-container a:last-child {
+            border-bottom: none;
+        }
+        .a-container a:focus {
+            color: white;
+            background-color: #0789f5 !important;
+        }
+        .a-container a:hover {
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="header">Основи web: HTML, CSS</h1>
+
+    <div class="a-container">
+        <a href="Intro.html">Знайомство з HTML</a>
+        <a href="Css.html">Каскадні таблиці стилів: CSS</a>
+        <a href="tables.html">Таблиці в HTML</a>
+        <a href="forms.html">Форми HTML</a>
+        <a href="typo.html">Типографіка. Стани елементів</a>
+        <a href="battery.html">Псевдоелементи</a>
+        <a href="flex.html">Флекс-елементи</a>
+        <a href="cards.html">Картки та макети</a>
+    </div>
+
+</body>
+</html>
